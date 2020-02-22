@@ -1,0 +1,12 @@
+name: MPNCalculator
+title: MPNCalculator
+username:
+account: meghartwick
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1847819
+bundleId: 2819635
+url: https://meghartwick.shinyapps.io/MPNCalculator/
+when: 1582348783.89224
+asMultiple: FALSE
+asStatic: FALSE
