@@ -25,7 +25,7 @@ ui <- fluidPage(theme = "bootstrap.min.css",
         actionButton("submit", h3("Submit")),
         downloadButton("MPN", h4("Download in CSV"), class="butt")),
       
-      # Show a plot of the generated distribution
+    
       mainPanel(mainPanel(
                           tabsetPanel(
                             tabPanel("Instructions", tags$img(src="MPN FIGURE 2.jpg", height = '500px', width  = '600pix') ),
@@ -39,7 +39,7 @@ ui <- fluidPage(theme = "bootstrap.min.css",
 )
 
 
-# Define server logic required to draw a histogram
+
 server <- function(input, output) {
   
   M<-read.csv('MPN.csv', stringsAsFactors = F)
@@ -53,7 +53,7 @@ server <- function(input, output) {
                                  select(MPN) %>%
                                  as.numeric(as.character())*as.numeric(input$Row)/as.numeric(input$Plankton)))
       output$MPN_Table <- DT::renderDataTable(Test$df)}
-      #new <- as.data.frame(Test$df)}
+      
     )
     
       output$MPN<- downloadHandler(
