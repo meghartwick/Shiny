@@ -4,7 +4,9 @@ R Shiny App Projects
 ## A Collection of Shiny Projects
 
 ### MPN Calculator
-A quick app for calculating MPN for 3 tube dilutions from the BAM protocol tables for the UNH Vibrio Surveillance Project
+A quick app for calculating MPN for 3 tube dilutions from the BAM protocol tables for the UNH Vibrio Surveillance Project  
+Find it here: http://meghartwick.shinyapps.io/MPNCalculator
+Stay tuned for more improvements coming soon!
 
   1.Enter the dilution of the most dilute tubes  
   2.Select the number of turbid tubes for each row  
